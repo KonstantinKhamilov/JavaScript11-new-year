@@ -43,8 +43,8 @@ body {
     border: solid 8px;
     border-radius: 20px;
     border-color: rgb(255, 48, 52);
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     position: relative; /* Добавлено для позиционирования */
   }
 

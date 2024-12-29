@@ -43,8 +43,8 @@ body {
     border: solid 8px;
     border-radius: 20px;
     border-color: rgb(255, 48, 52);
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     position: relative; /* Добавлено для позиционирования */
   }
 
@@ -111,7 +111,7 @@ body {
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 624px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
   .timer > p,
   .timer > #day,
   .timer > #hrs,
@@ -130,7 +130,7 @@ body {
   }
 }
 
-@media screen and (min-width: 625px) and (max-width: 1280px) {
+@media screen and (min-width: 769px) and (max-width: 1280px) {
   .timer > p,
   .timer > #day,
   .timer > #hrs,
