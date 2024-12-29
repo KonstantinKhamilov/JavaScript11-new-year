@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 @keyframes rainbow {
@@ -10,26 +9,6 @@ body {
   }
   100% {
     background-position: 100%;
-  }
-}
-
-.snowflake {
-  position: absolute;
-  top: -10px; /* Начальная позиция снега */
-  background: white; /* Цвет снега */
-  border-radius: 50%; /* Круглая форма */
-  opacity: 0.8; /* Прозрачность снега */
-  animation: fall linear infinite; /* Анимация падения */
-  width: 10px; /* Размер снежинки */
-  height: 10px; /* Размер снежинки */
-}
-
-@keyframes fall {
-  0% {
-    transform: translateY(0); /* Начальная позиция */
-  }
-  100% {
-    transform: translateY(100vh); /* Конечная позиция */
   }
 }
 
@@ -67,7 +46,7 @@ body {
     color: rgb(4, 69, 131);
     font-family: cursive;
     font-weight: bold;
-    font-size: 1.8em;
+    font-size: 1.5em;
     text-align: center;
     background: linear-gradient(
       270deg,
@@ -76,7 +55,6 @@ body {
       yellow,
       green,
       blue,
-      white,
       indigo,
       violet
     );

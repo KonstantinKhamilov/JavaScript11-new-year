@@ -13,17 +13,6 @@ body {
   }
 }
 
-.snowflake {
-  position: absolute;
-  top: -10px; /* Начальная позиция снега */
-  background: white; /* Цвет снега */
-  border-radius: 50%; /* Круглая форма */
-  opacity: 0.8; /* Прозрачность снега */
-  animation: fall linear infinite; /* Анимация падения */
-  width: 10px; /* Размер снежинки */
-  height: 10px; /* Размер снежинки */
-}
-
 @keyframes fall {
   0% {
     transform: translateY(0); /* Начальная позиция */
@@ -45,6 +34,15 @@ body {
     border-color: rgb(255, 48, 52);
     height: 600px;
     position: relative; /* Добавлено для позиционирования */
+  }
+
+  .snowflake {
+    position: absolute;
+    top: -10px; /* Начальная позиция снега */
+    background: white; /* Цвет снега */
+    border-radius: 50%; /* Круглая форма */
+    opacity: 0.8; /* Прозрачность снега */
+    animation: fall linear infinite; /* Анимация падения */
   }
 
   ol {

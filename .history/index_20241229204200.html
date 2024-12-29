@@ -218,29 +218,6 @@ function showResults() {
       */
     
 //3
-const snowContainer = document.querySelector('.box');
-
-function createSnowflake() {
-    const snowflake = document.createElement('div');
-    snowflake.classList.add('snowflake');
-    
-    // Устанавливаем случайную позицию по горизонтали
-    snowflake.style.left = Math.random() * 100 + 'vw';
-    
-    // Устанавливаем случайную скорость падения
-    snowflake.style.animationDuration = Math.random() * 3 + 2 + 's'; // от 2 до 5 секунд
-
-    // Добавляем снежинку в контейнер
-    snowContainer.appendChild(snowflake);
-    
-    // Удаляем снежинку после завершения анимации
-    setTimeout(() => {
-        snowflake.remove();
-    }, 5000); // Время должно соответствовать времени падения
-}
-
-// Создаем снежинки каждые 300 мс
-setInterval(createSnowflake, 300);
 const day = document.getElementById('day');
 const hrs = document.getElementById('hrs');
 const min = document.getElementById('min');

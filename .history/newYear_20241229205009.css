@@ -20,8 +20,8 @@ body {
   border-radius: 50%; /* Круглая форма */
   opacity: 0.8; /* Прозрачность снега */
   animation: fall linear infinite; /* Анимация падения */
-  width: 10px; /* Размер снежинки */
-  height: 10px; /* Размер снежинки */
+  width: 5px; /* Размер снежинки */
+  height: 5px; /* Размер снежинки */
 }
 
 @keyframes fall {

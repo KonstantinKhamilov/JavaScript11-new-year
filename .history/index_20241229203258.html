@@ -65,7 +65,7 @@
   <p>Пример вывода результата задания:</p>
 <img src="D:\Full Stack\Модуль\JavaScript\JavaScript11\Безымянный1.png" alt="time">
 -->
-<div class="box" >
+<div class="box snowflake" >
   <ol class="maintext">
     <li class="text">До Нового року залишилось:</li>
    <li class="count">
@@ -82,7 +82,12 @@
 
     <script>
 
-      
+
+    const snowContainer = document.querySelector('.box');
+
+    function createSnowflake() {
+        const snowflake = document.create
+    }
 /*
         //1
 function Circle(radius) {
@@ -218,29 +223,6 @@ function showResults() {
       */
     
 //3
-const snowContainer = document.querySelector('.box');
-
-function createSnowflake() {
-    const snowflake = document.createElement('div');
-    snowflake.classList.add('snowflake');
-    
-    // Устанавливаем случайную позицию по горизонтали
-    snowflake.style.left = Math.random() * 100 + 'vw';
-    
-    // Устанавливаем случайную скорость падения
-    snowflake.style.animationDuration = Math.random() * 3 + 2 + 's'; // от 2 до 5 секунд
-
-    // Добавляем снежинку в контейнер
-    snowContainer.appendChild(snowflake);
-    
-    // Удаляем снежинку после завершения анимации
-    setTimeout(() => {
-        snowflake.remove();
-    }, 5000); // Время должно соответствовать времени падения
-}
-
-// Создаем снежинки каждые 300 мс
-setInterval(createSnowflake, 300);
 const day = document.getElementById('day');
 const hrs = document.getElementById('hrs');
 const min = document.getElementById('min');
