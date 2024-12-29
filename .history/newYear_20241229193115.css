@@ -6,15 +6,14 @@ body {
 @media screen and (min-width: 320px) {
   .box {
     display: block;
-    text-align: end;
     background-image: url("z_nastupauschim_ng_4.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border: solid 8px;
     border-radius: 20px;
     border-color: rgb(255, 48, 52);
-    height: 600px;
-    position: relative; /* Добавлено для позиционирования */
+    position: relative;
+    height: 100%;
   }
 
   ol {
@@ -27,16 +26,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 100% 0px 0px 0px;
-    position: absolute;
-    bottom: 12%;
-    width: 100%;
+    position: absolute; /* Устанавливаем абсолютное позиционирование для дочернего элемента */
+    bottom: 100%; /* Прикрепляем к нижней части родителя */
   }
 
   .text {
     color: rgb(255, 0, 0);
     font-family: cursive;
-    font-size: 1.5em;
+    font-size: 1.25em;
     text-align: center;
   }
 
@@ -58,7 +55,7 @@ body {
   .timer > #min,
   .timer > #sec {
     color: white;
-    background-color: rgb(102, 2, 196, 0.55);
+    background-color: rgb(102, 2, 196, 0.62);
     font-size: 1em;
     text-align: center;
   }

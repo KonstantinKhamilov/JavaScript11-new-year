@@ -28,15 +28,15 @@ body {
     flex-direction: column;
     justify-content: space-between;
     padding: 100% 0px 0px 0px;
-    position: absolute;
-    bottom: 12%;
-    width: 100%;
+    position: absolute; /* Добавлено для абсолютного позиционирования */
+    bottom: 20%; /* Прикрепляем к нижней части */
+    width: 100%; /* Задаем ширину 100% */
   }
 
   .text {
     color: rgb(255, 0, 0);
     font-family: cursive;
-    font-size: 1.5em;
+    font-size: 1.25em;
     text-align: center;
   }
 
@@ -58,7 +58,7 @@ body {
   .timer > #min,
   .timer > #sec {
     color: white;
-    background-color: rgb(102, 2, 196, 0.55);
+    background-color: rgb(102, 2, 196, 0.62);
     font-size: 1em;
     text-align: center;
   }

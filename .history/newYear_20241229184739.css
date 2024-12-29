@@ -5,16 +5,16 @@ body {
 
 @media screen and (min-width: 320px) {
   .box {
-    display: block;
-    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10rem;
     background-image: url("z_nastupauschim_ng_4.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border: solid 8px;
     border-radius: 20px;
     border-color: rgb(255, 48, 52);
-    height: 600px;
-    position: relative; /* Добавлено для позиционирования */
   }
 
   ol {
@@ -23,28 +23,25 @@ body {
     padding: 0px;
   }
 
-  .maintext {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 100% 0px 0px 0px;
-    position: absolute;
-    bottom: 12%;
-    width: 100%;
-  }
-
-  .text {
+  h1 {
     color: rgb(255, 0, 0);
     font-family: cursive;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
+    padding-top: 20%;
   }
 
-  .time {
+  .count {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+  }
+
+  .timer {
+    text-align: center;
+    width: 2em;
+    height: 1em;
   }
 
   h2 {
@@ -58,8 +55,8 @@ body {
   .timer > #min,
   .timer > #sec {
     color: white;
-    background-color: rgb(102, 2, 196, 0.55);
-    font-size: 1em;
+    background-color: rgb(102, 2, 196, 0.62);
+    font-size: 0.5em;
     text-align: center;
   }
 }
