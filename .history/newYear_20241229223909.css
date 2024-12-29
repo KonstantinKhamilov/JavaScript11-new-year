@@ -72,8 +72,8 @@ body {
     text-align: center;
     background: linear-gradient(
       270deg,
-      rgb(118, 1, 1),
-      rgb(208, 135, 0),
+      red,
+      orange,
       yellow,
       green,
       blue,
@@ -136,16 +136,16 @@ body {
   .timer > #hrs,
   .timer > #min,
   .timer > #sec {
-    font-size: 1.15em;
+    font-size: 1.6em;
   }
   h2 {
-    font-size: 1.5em;
+    font-size: 2.05em;
   }
   .text {
-    font-size: 1.85em;
+    font-size: 2.4em;
   }
   .maintext {
-    bottom: 0.5%;
+    bottom: 0.2%;
   }
 }
 
