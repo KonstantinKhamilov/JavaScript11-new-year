@@ -111,7 +111,7 @@ body {
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 624px) {
   .timer > p,
   .timer > #day,
   .timer > #hrs,
@@ -130,7 +130,7 @@ body {
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1280px) {
+@media screen and (min-width: 625px) and (max-width: 1280px) {
   .timer > p,
   .timer > #day,
   .timer > #hrs,
@@ -164,6 +164,6 @@ body {
     font-size: 3.3em;
   }
   .maintext {
-    bottom: 2.5%;
+    bottom: 0.5%;
   }
 }

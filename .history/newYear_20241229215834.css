@@ -111,7 +111,7 @@ body {
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 624px) {
   .timer > p,
   .timer > #day,
   .timer > #hrs,
@@ -126,11 +126,11 @@ body {
     font-size: 2.5em;
   }
   .maintext {
-    bottom: 3.5%;
+    bottom: 3.5vh;
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1280px) {
+@media screen and (min-width: 625px) and (max-width: 1280px) {
   .timer > p,
   .timer > #day,
   .timer > #hrs,
@@ -155,15 +155,15 @@ body {
   .timer > #hrs,
   .timer > #min,
   .timer > #sec {
-    font-size: 2.5em;
+    font-size: 2.2em;
   }
   h2 {
-    font-size: 2.8em;
+    font-size: 2.5em;
   }
   .text {
-    font-size: 3.3em;
+    font-size: 3em;
   }
   .maintext {
-    bottom: 2.5%;
+    bottom: 0.5%;
   }
 }
