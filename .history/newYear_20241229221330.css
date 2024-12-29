@@ -117,16 +117,16 @@ body {
   .timer > #hrs,
   .timer > #min,
   .timer > #sec {
-    font-size: 1.1em;
+    font-size: 1.35em;
   }
   h2 {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
   .text {
     font-size: 1.5em;
   }
   .maintext {
-    bottom: 1.2%;
+    bottom: 2.5%;
   }
 }
 
@@ -136,16 +136,16 @@ body {
   .timer > #hrs,
   .timer > #min,
   .timer > #sec {
-    font-size: 1.6em;
+    font-size: 2em;
   }
   h2 {
-    font-size: 2.05em;
+    font-size: 2.15em;
   }
   .text {
-    font-size: 2.4em;
+    font-size: 2.75em;
   }
   .maintext {
-    bottom: 1.5%;
+    bottom: 2%;
   }
 }
 
