@@ -60,7 +60,7 @@ body {
     justify-content: space-between;
     padding: 100% 0px 0px 0px;
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     width: 100%;
   }
 
@@ -125,9 +125,6 @@ body {
   .text {
     font-size: 2.5em;
   }
-  .maintext {
-    bottom: 5%;
-  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
@@ -136,16 +133,13 @@ body {
   .timer > #hrs,
   .timer > #min,
   .timer > #sec {
-    font-size: 2em;
+    font-size: 2.2em;
   }
   h2 {
-    font-size: 2.15em;
+    font-size: 2.5em;
   }
   .text {
-    font-size: 2.75em;
-  }
-  .maintext {
-    bottom: 2%;
+    font-size: 3em;
   }
 }
 
@@ -162,8 +156,5 @@ body {
   }
   .text {
     font-size: 3em;
-  }
-  .maintext {
-    bottom: 0.5%;
   }
 }
